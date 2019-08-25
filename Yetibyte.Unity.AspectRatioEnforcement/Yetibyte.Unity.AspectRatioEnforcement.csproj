@@ -4,6 +4,10 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+
   <ItemGroup>
     <Reference Include="UnityEditor">
       <HintPath>..\..\..\..\..\..\Program Files\Unity\Hub\Editor\2019.2.2f1\Editor\Data\Managed\UnityEditor.dll</HintPath>
