@@ -28,7 +28,7 @@ bld/
 [Ll]og/
 
 # Do not ignore released DLL
-![Bb]in/[Rr]elease/Yetibyte.Unity.AspectRatioEnforcement.dll
+![Bb]in/[Rr]elease/netstandard2.0/Yetibyte.Unity.AspectRatioEnforcement.dll
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/
