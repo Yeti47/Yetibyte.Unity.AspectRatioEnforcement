@@ -68,6 +68,24 @@ namespace Yetibyte.Unity.AspectRatioEnforcement {
             }
         }
 
+        public Color BackgroundColor {
+            get => _backgroundColor;
+            set {
+
+                if (_backgroundColor == value)
+                    return;
+
+                _backgroundColor = value;
+
+
+                if (_backgroundCam == null)
+                    InitializeBackgroundCamera();
+                else
+                    _backgroundCam.backgroundColor = _backgroundColor;
+
+            }
+        }
+
         #endregion
 
         #region Methods
